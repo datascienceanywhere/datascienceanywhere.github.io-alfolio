@@ -84,9 +84,9 @@ jobs:
           purgecss -c purgecss.config.js
 
       - name: Fix permission
-          run: |
-            chmod a+x bin/*
-            git commit -am "add execute permission to bin/deploy"
+        run: |
+          chmod a+x bin/*
+          git commit -am "add execute permission to bin/deploy"
 
       - name: Deploy 🚀
         if: github.event_name != 'pull_request'
