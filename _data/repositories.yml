@@ -1,0 +1,11 @@
+github_users:
+  - datascienceanywhere
+
+github_repos:
+  - datascienceanywhere/attendance_system
+  - twbs/bootstrap
+  - jekyll/jekyll
+  - jquery/jquery
+  - FortAwesome/Font-Awesome
+  - jpswalsh/academicons
+  - mathjax/MathJax
